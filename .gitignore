@@ -3,3 +3,4 @@ venv/
 .env
 playlists/
 __pycache__/
+.cache/
