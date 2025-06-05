@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2025-06-05T13:26:35Z</date>
+	<key>Application Version</key><string>1.5.2.56</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file:///Users/sonav/Music/Music/Media.localized/</string>
+	<key>Library Persistent ID</key><string>828F8ED3561255EB</string>
+	<key>Tracks</key>
+	<dict>
+		<key>3055</key>
+		<dict>
+			<key>Track ID</key><integer>3055</integer>
+			<key>Name</key><string>Sugar &#38; Brownies</string>
+			<key>Artist</key><string>Dharia</string>
+			<key>Album Artist</key><string>Dharia</string>
+			<key>Composer</key><string>Daria Comanescu &#38; Iarina Comanescu</string>
+			<key>Album</key><string>Sugar &#38; Brownies - Single</string>
+			<key>Genre</key><string>Dance</string>
+			<key>Kind</key><string>Apple Music AAC audio file</string>
+			<key>Size</key><integer>7207005</integer>
+			<key>Total Time</key><integer>197837</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2018</integer>
+			<key>Date Modified</key><date>2025-04-30T11:42:03Z</date>
+			<key>Date Added</key><date>2025-04-30T11:42:03Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3829950478</integer>
+			<key>Play Date UTC</key><date>2025-05-12T21:37:58Z</date>
+			<key>Release Date</key><date>2018-10-22T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Sugar &#38; Brownies - Single</string>
+			<key>Sort Artist</key><string>Dharia</string>
+			<key>Sort Name</key><string>Sugar &#38; Brownies</string>
+			<key>Persistent ID</key><string>587EC83A06E74909</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+		<key>8085</key>
+		<dict>
+			<key>Track ID</key><integer>8085</integer>
+			<key>Name</key><string>Girl, so confusing featuring lorde</string>
+			<key>Artist</key><string>Charli xcx &#38; Lorde</string>
+			<key>Album Artist</key><string>Charli xcx &#38; Lorde</string>
+			<key>Composer</key><string>Alexander Guy Cook, Charlotte Aitchison, Ella Yelich O'Connor &#38; James Harmon Stack</string>
+			<key>Album</key><string>Girl, so confusing featuring lorde - Single</string>
+			<key>Genre</key><string>Dance</string>
+			<key>Kind</key><string>Apple Music AAC audio file</string>
+			<key>Size</key><integer>7432803</integer>
+			<key>Total Time</key><integer>205938</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2024</integer>
+			<key>Date Modified</key><date>2025-06-05T05:24:16Z</date>
+			<key>Date Added</key><date>2025-06-05T05:24:16Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2024-06-21T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Girl, so confusing featuring lorde - Single</string>
+			<key>Sort Artist</key><string>Charli xcx &#38; Lorde</string>
+			<key>Sort Name</key><string>Girl, so confusing featuring lorde</string>
+			<key>Persistent ID</key><string>6416429B7977F731</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+		<key>8537</key>
+		<dict>
+			<key>Track ID</key><integer>8537</integer>
+			<key>Name</key><string>High Rated Gabru (From "High Rated Gabru")</string>
+			<key>Artist</key><string>Guru Randhawa</string>
+			<key>Album Artist</key><string>Guru Randhawa</string>
+			<key>Composer</key><string>Manj Musik</string>
+			<key>Album</key><string>All Time Hits Guru Randhawa Birthday Special</string>
+			<key>Genre</key><string>Indian Pop</string>
+			<key>Kind</key><string>Apple Music AAC audio file</string>
+			<key>Size</key><integer>7678891</integer>
+			<key>Total Time</key><integer>213933</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2017</integer>
+			<key>Date Modified</key><date>2025-06-05T13:25:35Z</date>
+			<key>Date Added</key><date>2025-06-05T13:25:35Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2017-07-04T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>All Time Hits Guru Randhawa Birthday Special</string>
+			<key>Sort Artist</key><string>Guru Randhawa</string>
+			<key>Sort Name</key><string>High Rated Gabru (From "High Rated Gabru")</string>
+			<key>Persistent ID</key><string>037CDE17010344DF</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>api-check</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>8505</integer>
+			<key>Playlist Persistent ID</key><string>684BE72E8ABCC724</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>8085</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>8537</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>3055</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

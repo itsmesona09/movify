@@ -1,5 +1,4 @@
 spotipy
 python-dotenv
-fuzzywuzzy
 requests
 lxml

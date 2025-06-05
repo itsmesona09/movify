@@ -1,4 +1,5 @@
 from lxml import etree
+import requests
 
 def parse_apple_playlist(xml_path, playlist_name=None):
     with open(xml_path, 'rb') as f:
@@ -40,3 +41,30 @@ def parse_apple_playlist(xml_path, playlist_name=None):
         return track_list
 
     return []  # Playlist not found or empty
+
+def parse_apple_music_url(playlist_url):
+    # Extract playlist ID from URL
+    playlist_id = playlist_url.rstrip('/').split('/')[-1]
+    
+    # Apple Music API endpoint to fetch playlist details (requires a developer token)
+    # For demo, we'll use the public iTunes Search API (limited)
+    
+    # Construct API URL (note: iTunes API has limited playlist support)
+    # Real Apple Music API requires auth token (MusicKit)
+    
+    api_url = f"https://itunes.apple.com/lookup?id={playlist_id}&entity=song"
+    
+    response = requests.get(api_url)
+    if response.status_code != 200:
+        print("Failed to fetch playlist data from Apple Music API")
+        return []
+    
+    data = response.json()
+    tracks = []
+    for item in data.get('results', []):
+        if item.get('wrapperType') == 'track':
+            tracks.append({
+                'name': item.get('trackName'),
+                'artist': item.get('artistName')
+            })
+    return tracks
