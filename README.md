@@ -2,6 +2,7 @@
 
 Movify is a Python-based tool that allows you to migrate playlists from Apple Music to Spotify. Apple Music exports playlists in `.xml` format (used by iTunes). 
 <br>It reads the `.xml` file, extracts song names and artists, searches for the tracks on Spotify using the Spotify API, and creates a new playlist on your Spotify account with the matching tracks.
+
 <br>
 
 **WHY DID I FIND THIS USEFUL?**
