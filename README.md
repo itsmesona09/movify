@@ -39,13 +39,16 @@ SPOTIPY\_REDIRECT\_URI=[http://localhost:8888/callback](http://localhost:8888/ca
 <br>
 
 4. Export playlists from Apple Music:
-In the Music app, go to File → Library → Export Playlist and save the file as `.xml`.
+<br>In the Music app, go to
+```bash
+File → Library → Export Playlist and save the file as `.xml`
+```
 <br>
 
-5. Move all `.xml` files into a folder called `playlists/`.
+6. Move all `.xml` files into a folder called `playlists/`.
 <br>
 
-6. Run the script:
+7. Run the script:
 ```bash
 python main.py playlists/your\_playlist.xml
 ```
