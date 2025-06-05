@@ -26,7 +26,7 @@ def create_playlist(sp, name):
 
 def add_tracks_to_playlist(sp, playlist_id, uris):
     if not uris:
-        print("⚠️ No Spotify URIs found. Skipping playlist creation.")
+        print("No Spotify URIs found. Skipping playlist creation.")
         return
     chunk_size = 100
     for i in range(0, len(uris), chunk_size):
