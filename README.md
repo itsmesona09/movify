@@ -7,8 +7,8 @@ Movify is a Python-based tool that allows you to migrate playlists from Apple Mu
 **WHY DID I FIND THIS USEFUL?**
 
 Apple Music is a paid service, and over time I’ve built up a ton of playlists there — like, seriously, it’s a whole music library! But switching over to Spotify, which I wanted to do because it’s free (or at least cheaper), meant I’d have to recreate every playlist by hand. Who has the patience for that?
-That’s why I made Movify. It’s a simple way to move all your playlists from Apple Music to Spotify without doing the boring copy-paste work. It just saves you so much time and hassle.
-Honestly, it’s also about not wanting to pay for two music subscriptions at once. Why spend extra money when you can get all your music in one place? Movify helps you keep your playlists, your sanity, and your wallet happy.
+<br>That’s why I made Movify. It’s a simple way to move all your playlists from Apple Music to Spotify without doing the boring copy-paste work. It just saves you so much time and hassle.
+<br>Honestly, it’s also about not wanting to pay for two music subscriptions at once. Why spend extra money when you can get all your music in one place? Movify helps you keep your playlists, your sanity, and your wallet happy.
 
 <br>
 
