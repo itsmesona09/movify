@@ -1,29 +1,40 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
-import os
-from main import migrate_playlist  # your existing function
-import tempfile
+from fastapi import FastAPI, UploadFile, File
+from fastapi.middleware.cors import CORSMiddleware
+from starlette.responses import JSONResponse
+import tempfile, os
+from main import migrate_playlist  # your playlist logic
 
-app = Flask(__name__)
-CORS(app)
+app = FastAPI()
 
-@app.route('/upload', methods=['POST'])
-def upload():
-    if 'playlist' not in request.files:
-        return jsonify({'error': 'No file provided'}), 400
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-    file = request.files['playlist']
-    if file.filename == '':
-        return jsonify({'error': 'Empty filename'}), 400
+@app.get("/test")
+def test():
+    return {"message": "Server is working!"}
 
-    with tempfile.NamedTemporaryFile(delete=False, suffix='.xml') as temp_file:
-        file.save(temp_file.name)
-        try:
-            base = os.path.basename(temp_file.name)
-            migrate_playlist(temp_file.name, os.path.splitext(base)[0])
-            return jsonify({'message': 'Playlist synced successfully!'})
-        except Exception as e:
-            return jsonify({'error': str(e)}), 500
+@app.post("/upload")
+async def upload_file(playlist: UploadFile = File(...)):
+    print("📥 Received upload:", playlist.filename)
+    try:
+        suffix = os.path.splitext(playlist.filename)[-1]
+        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
+            content = await playlist.read()
+            tmp.write(content)
+            tmp_path = tmp.name
 
-if __name__ == '__main__':
-    app.run(debug=True)
+        playlist_name = os.path.splitext(os.path.basename(tmp_path))[0]
+        migrate_playlist(tmp_path, playlist_name)
+        os.remove(tmp_path)
+
+        return {"message": "Playlist synced successfully!"}
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
